@@ -1,0 +1,365 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-BoldItalic;
+}
+{\colortbl;\red255\green255\blue255;\red127\green0\blue85;\red106\green62\blue62;\red63\green127\blue95;
+\red127\green159\blue191;\red0\green0\blue192;\red42\green0\blue255;}
+{\*\expandedcolortbl;;\csgenericrgb\c49804\c0\c33333;\csgenericrgb\c41569\c24314\c24314;\csgenericrgb\c24706\c49804\c37255;
+\csgenericrgb\c49804\c62353\c74902;\csgenericrgb\c0\c0\c75294;\csgenericrgb\c16471\c0\c100000;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs24 \cf2 package
+\f1\b0 \cf0  labsWeek2BB;\
+\
+
+\f0\b \cf2 public
+\f1\b0 \cf0  
+\f0\b \cf2 class
+\f1\b0 \cf0  labsWeek2bbb \{\
+\
+  
+\f0\b \cf2 public
+\f1\b0 \cf0  
+\f0\b \cf2 static
+\f1\b0 \cf0  
+\f0\b \cf2 void
+\f1\b0 \cf0  main(String[] \cf3 args\cf0 ) \{\
+    \cf4 // 
+\f0\b \cf5 TODO
+\f1\b0 \cf4  Auto-generated method stub\cf0 \
+\
+\
+  \
+    \cf4 //\cf0 \
+    \cf4 // BOOLEANS and CONDITIONALS:\cf0 \
+    \cf4 //\cf0 \
+    \
+    \cf4 // 1. Variable Declaration:\cf0 \
+    \cf4 //      a. Create a variable named age and assign it a value of 14\cf0 \
+\
+    
+\f0\b \cf2 int
+\f1\b0 \cf0  \cf3 age\cf0  = 14;\
+    \
+    \cf4 // 2. Print a Boolean Expression:\cf0 \
+    \cf4 //      a. Print the boolean expression age >= 16 to the console and note the results.\cf0 \
+    \cf4 //      a. Change the value of age to 18 and print again.\cf0 \
+\
+System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf3 age\cf0  >= 16);\
+\
+ \cf3 age\cf0  = 17;\
+System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf3 age\cf0  >=16);\
+\
+    \
+    \cf4 // 3. Can you drive?\cf0 \
+    \cf4 //      a. Using a conditional, print one of the following:\cf0 \
+    \cf4 //              i. "You can drive" if age is greater than or equal to 16\cf0 \
+    \cf4 //              ii. "You cannot drive" otherwise\cf0 \
+    \cf4 //\cf0 \
+\
+\
+
+\f0\b \cf2 boolean
+\f1\b0 \cf0  \cf3 hasLicense\cf0  = 
+\f0\b \cf2 true
+\f1\b0 \cf0 ;\
+
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 age\cf0  >= 16 && \cf3 hasLicense\cf0 ) \{\
+  \
+  System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "You can drive"\cf0 );\
+   \}\
+
+\f0\b \cf2 else
+\f1\b0 \cf0  \{\
+  System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "You cannot drive"\cf0 );\
+\}\
+\
+\
+    \cf4 //      a. Change the value of age and rerun to see the result\cf0 \
+\
+\
+    \
+    \cf4 // 4. Update Solution to Question 3 as follows:\cf0 \
+    \cf4 //      a. Add a new variable called hasLicense before the conditional.\cf0 \
+    \cf4 //      b. Change the boolean expression in the conditional to additionally \cf0 \
+    \cf4 //              include the need for hasLicense to be true.\cf0 \
+    \cf4 //      c. Try changing the values of age and hasLicense and note the different results.\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 // done\cf0 \
+    \
+    \
+    \cf4 // 5. Milk?\cf0 \
+    \cf4 //      a. Create two new variables - costOfMilk and thirstLevel\cf0 \
+    \cf4 //      b. Create a new conditional that prints "Milk Please" if costOfMilk is less than 2.50 \cf0 \
+    \cf4 //              or if thirstLevel is greater than 6 and prints "No Thanks" otherwise.\cf0 \
+    \cf4 //      c. Change the values and note the different results.\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b \cf2 double
+\f1\b0 \cf0  \cf3 costOfMilk\cf0  = 2.5;\
+
+\f0\b \cf2 int
+\f1\b0 \cf0  \cf3 thirstLevel\cf0  = 7;\
+
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 costOfMilk\cf0  <= 2.50 || \cf3 thirstLevel\cf0  > 6) \{\
+  System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "Milk please."\cf0 );\
+\}\
+\
+
+\f0\b \cf2 else
+\f1\b0 \cf0  \{\
+  System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "No thanks."\cf0 );\
+\}\
+    \cf4 // 6. Cookie Distribution: \cf0 \
+    \cf4 //          Note:  You will evenly distribute all of the cookies to the children \cf0 \
+    \cf4 //                  and as the adult you get to keep the remaining cookies for yourself.\cf0 \
+    \cf4 //\cf0 \
+    \cf4 //      a. Create two variables called numberOfCookies and numberOfChildren.\cf0 \
+    \cf4 //      b. Initialize the two variables to integer values.\cf0 \
+    \cf4 //      b. Use a conditional to print the following based on the following conditions:\cf0 \
+    \cf4 //              i. If there are 0 cookies remaining, print "Sad Face"\cf0 \
+    \cf4 //              ii. If there are less than 2 cookies, print "Yes!"\cf0 \
+    \cf4 //              iii. If there are less than 5 cookies, print "\ul Whoohoooo\ulnone !"\cf0 \
+    \cf4 //              iv. If there are 5 or more cookies, print "\ul Jackpot\ulnone !"\cf0 \
+\
+
+\f0\b \cf2 int
+\f1\b0 \cf0  \cf3 numberOfCookies\cf0  = 10;\
+
+\f0\b \cf2 int
+\f1\b0 \cf0  \cf3 numberOfChildren\cf0  = 8;\
+
+\f0\b \cf2 int
+\f1\b0 \cf0  \cf3 remainingCookies\cf0  = \cf3 numberOfCookies\cf0  % \cf3 numberOfChildren\cf0 ; \
+\
+
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 remainingCookies\cf0  >= 5) \{\
+  System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "Jackpot!"\cf0 );  \
+\} 
+\f0\b \cf2 else
+\f1\b0 \cf0  
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 remainingCookies\cf0  >= 2) \{\
+    System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "Woohooooo!"\cf0 );\
+\} 
+\f0\b \cf2 else
+\f1\b0 \cf0  
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 remainingCookies\cf0  > 0) \{\
+      System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "Yes!"\cf0 );\
+\} 
+\f0\b \cf2 else
+\f1\b0 \cf0   \{\
+        System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "Sad Face"\cf0 );\
+\}\
+        \
+\
+ \
+       \
+      \
+  \
+\
+\
+\
+            \
+    \cf4 // 7.  Loyalty Member Program:\cf0 \
+    \cf4 //      a. Create a variable called loyaltyMemberStatus and assign the value "SILVER"\cf0 \
+    \cf4 //      b. Create a variable called loyaltyMemberDiscount and assign the value 0.0\cf0 \
+    \cf4 //      c. Using a switch, set the value of loyaltyMemberDiscount based on \cf0 \
+    \cf4 //              the following loyaltyMemberStatus scale: \cf0 \
+    \cf4 //              i. "SILVER" is 0.10\cf0 \
+    \cf4 //              ii. "GOLD" is 0.15\cf0 \
+    \cf4 //              iii. "PLATINUM" is 0.25\cf0 \
+    \
+\
+String \cf3 loyaltyMemberStatus\cf0  = \cf7 "GOLD"\cf0 ;\
+
+\f0\b \cf2 double
+\f1\b0 \cf0  \cf3 loyaltyMemberDiscount\cf0  = 0.0;\
+\
+
+\f0\b \cf2 switch
+\f1\b0 \cf0  (\cf3 loyaltyMemberStatus\cf0 ) \{\
+  
+\f0\b \cf2 case
+\f1\b0 \cf0  \cf7 "SILVER"\cf0  :\
+   \cf3 loyaltyMemberDiscount\cf0  = .1;\
+   
+\f0\b \cf2 break
+\f1\b0 \cf0 ;\
+   
+\f0\b \cf2 case
+\f1\b0 \cf0  \cf7 "GOLD"\cf0  :\
+  \cf3 loyaltyMemberDiscount\cf0  = .15;\
+    
+\f0\b \cf2 break
+\f1\b0 \cf0 ;\
+       
+\f0\b \cf2 case
+\f1\b0 \cf0  \cf7 "PLATINUM"\cf0  :\
+      \cf3 loyaltyMemberDiscount\cf0  = .25;\
+\}\
+System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf3 loyaltyMemberDiscount\cf0 );\
+    \
+    \cf4 // 8. Using the Loyalty Member Program variables from Question 7, do the following:\cf0 \
+    \cf4 //      a. Create a variable called billTotal and assign a value\cf0 \
+    \cf4 //      b. Create a variable called adjustedTotal and assign it the billTotal minus \cf0 \
+    \cf4 //              the loyaltyMemberDiscount percent of the billTotal\cf0 \
+    \cf4 //      c. If the adjustedBillTotal is greater than $500 upgrade the \cf0 \
+    \cf4 //              loyaltyMemberStatus from SILVER to GOLD or from GOLD to PLATINUM\cf0 \
+\
+\
+
+\f0\b \cf2 double
+\f1\b0 \cf0  \cf3 billTotal\cf0  = 640.5;\
+
+\f0\b \cf2 double
+\f1\b0 \cf0  \cf3 adjustedTotal\cf0  = \cf3 billTotal\cf0  - \cf3 loyaltyMemberDiscount\cf0  * \cf3 billTotal\cf0 ;\
+System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf3 adjustedTotal\cf0 );\
+\
+\
+
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 adjustedTotal\cf0  > 500) \{\
+     
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 loyaltyMemberStatus\cf0  == \cf7 "SILVER"\cf0 ) \{\
+       \cf3 loyaltyMemberStatus\cf0  = \cf7 "GOLD"\cf0 ;\
+     \} 
+\f0\b \cf2 else
+\f1\b0 \cf0  
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 loyaltyMemberStatus\cf0  == \cf7 "GOLD"\cf0 ) \{\
+       \cf3 loyaltyMemberStatus\cf0  = \cf7 "PLATINUM"\cf0 ;\
+     \}\
+     \}\
+System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf3 loyaltyMemberStatus\cf0 );\
+\
+\
+\
+    \
+    \cf4 // 9. Login -- \ul username\ulnone  & password:\cf0 \
+    \cf4 //      a. Create two variables, \ul username\ulnone  and password\cf0 \
+    \cf4 //      b. Create a conditional that prints one of the following:\cf0 \
+    \cf4 //              i. "login successful" if the \ul username\ulnone  is "Tommy123" and the password is "12345"\cf0 \
+    \cf4 //              ii. "access denied" otherwise\cf0 \
+\
+    String \cf3 username\cf0  = \cf7 "jamicakes"\cf0 ;\
+    String \cf3 password\cf0  = \cf7 "clover"\cf0 ;\
+    \
+    
+\f0\b \cf2 if
+\f1\b0 \cf0  (\cf3 username\cf0 .equals (\cf7 "jamicakes"\cf0 ) && \cf3 password\cf0 .equals (\cf7 "clover"\cf0 )) \{\
+      System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "login successful"\cf0 );\
+    \} 
+\f0\b \cf2 else
+\f1\b0 \cf0   System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf7 "access denied"\cf0 );\
+      \
+    \
+        \
+    \
+    \cf4 //\cf0 \
+    \cf4 // LOOPS:\cf0 \
+    \cf4 //\cf0 \
+    \
+    \cf4 // 10. Write a for loop that prints each number from 0 to 9\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf4 //    \ul int\ulnone  i = 0;\cf0 \
+\cf4 //while (i < 10 ) \{\cf0 \
+\cf4 //  System.out.println(i + " ");\cf0 \
+\cf4 //  i++;\}\cf0 \
+\cf4 //  \cf0 \
+  \
+\cf4 //  for (\ul int\ulnone  x = 0 ; x < 10; x++) \{\cf0 \
+\cf4 //    System.out.println(x);\cf0 \
+\cf4 //  \}\cf0 \
+\cf4 //  \cf0 \
+    \
+    \
+    \cf4 // 11. Write a for loop that prints each number from 10 to 0 backwards\cf0 \
+\
+\cf4 //  for (\ul int\ulnone  x = 10 ; x >= 0 ; x--) \{\cf0 \
+\cf4 //    System.out.println(x);\cf0 \
+\cf4 //  \}\cf0 \
+\cf4 //    \cf0 \
+    \
+    \cf4 // 12. Write a for loop that prints every other number from 0 to 100\cf0 \
+\
+  \
+\cf4 //for (\ul int\ulnone  x = 0 ; x < 100; x++) \{\cf0 \
+\cf4 //  if (x % 2 <= 0)\cf0 \
+\cf4 //System.out.println(x);\cf0 \
+\cf4 //\}\cf0 \
+    \
+\cf4 //    for (\ul int\ulnone  i = 0; i <= 100; i += 2) \{\cf0 \
+\cf4 //      System.out.println(i);\cf0 \
+\cf4 //    \}\cf0 \
+\cf4 //    \cf0 \
+\cf4 //    // 13. Write a for loop that iterates from 0 to 100 and prints \cf0 \
+\cf4 //    //          "EVEN" if the number is even and "ODD" if it's odd\cf0 \
+\cf4 //for (\ul int\ulnone  x = 0 ; x < 100; x++) \{\cf0 \
+\cf4 //  if (x % 2 <= 0) \{\cf0 \
+\cf4 //System.out.println(x + " EVEN");\cf0 \
+\cf4 //  if (x % 2 <= .5 ) \{\cf0 \
+\cf4 //System.out.println(x + " ODD");\}\cf0 \
+\cf4 //  \cf0 \
+\
+    \
+    \cf4 // 14. Write a while loop that starts at 100 and iterates backwards by 1 until it reaches 0\cf0 \
+    \cf4 //          within the loop, divide each number by 3 and print the remainder to the console.\cf0 \
+\
+  
+\f0\b \cf2 int
+\f1\b0 \cf0   \cf3 y\cf0  = 100;\
+  
+\f0\b \cf2 while
+\f1\b0 \cf0  (\cf3 y\cf0  > 0) \{\
+    System.
+\f2\i\b \cf6 out
+\f1\i0\b0 \cf0 .println(\cf3 y\cf0  + \cf7 "  "\cf0  + \cf3 y\cf0   % 3);\
+  \
+  \cf3 y\cf0 --; \
+  \}\
+  \
+  \
+  \
+  \
+  \}\}\
+\
+\
+}
